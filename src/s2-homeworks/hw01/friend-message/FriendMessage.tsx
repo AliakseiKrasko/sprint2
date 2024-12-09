@@ -20,35 +20,34 @@ const FriendMessage = (props: FriendMessagePropsType) => {
                     alt="Friend avatar"
                     className={s.friendAvatar}
                 />
-                <div className={s.friendText}>
-                    <div
-                        id={'hw1-friend-name-' + props.message.id}
-                        className={s.friendName}
-                    >
-                        {/*создаёт студент*/}
+                <div
+                    id={'hw1-friend-time-' + props.message.id}
+                    className={s.friendTime}
+                >
+                    {props.message.message.time}
 
-                        {/**/}
-                    </div>
-                    <pre
-                        id={'hw1-friend-text-' + props.message.id}
-                        className={s.friendMessageText}
-                    >
-                        {/*создаёт студент*/}
-
-                        {/**/}
-                    </pre>
                 </div>
             </div>
-            <div
-                id={'hw1-friend-time-' + props.message.id}
-                className={s.friendTime}
-            >
-                {/*создаёт студент*/}
+            <div className={s.friendText}>
+                <div
+                    id={'hw1-friend-name-' + props.message.id}
+                    className={s.friendName}
+                >
+                    {props.message.user.name}
 
-                {/**/}
+                </div>
+                <pre
+                    id={'hw1-friend-text-' + props.message.id}
+                    className={s.friendMessageText}
+                >
+                        {props.message.message.text}
+
+                    </pre>
             </div>
         </div>
-    )
+
+
+)
 }
 
 export default FriendMessage

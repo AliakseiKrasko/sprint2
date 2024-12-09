@@ -1,17 +1,39 @@
 .friendMessage {
-
+    display: flex;
+    justify-content: flex-start; /* Смещение всего сообщения вправо */
+    align-items: center;
+    width: auto; /* Ширина сообщения адаптируется к тексту */
+    margin: 10px 0; /* Отступы между сообщениями */
+    margin-left: 10px;
+    padding-bottom: 30px;
 }
 
 .friendImageAndText {
+    position: relative;
+    top: 23px;
+    display: flex;
+    flex-direction: column; /* Расположение аватарки и времени по вертикали */
+    align-items: center; /* Центрирование аватарки и времени */
+    gap: 5px; /* Отступ между аватаркой и временем */
 
 }
 
 .friendImageAndText img {
-
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Круглая форма для аватара */
+    /*padding-right: 10px;*/
 }
 
 .friendText {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ebedf1; /* Синий фон для сообщения */
+    color: black;
+    border-radius: 10px 10px 10px 0; /* Скругленные углы */
+    padding: 10px 15px; /* Отступы внутри блока текста */
+    margin-left: 10px;
 }
 
 .friendText:after {
@@ -19,13 +41,19 @@
 }
 
 .friendName {
-
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    align-self: start;
 }
 
 .friendMessageText {
-
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .friendTime {
-
+    font-size: 12px;
+    color: black;
+    text-align: center; /* Центрирование времени */
 }
