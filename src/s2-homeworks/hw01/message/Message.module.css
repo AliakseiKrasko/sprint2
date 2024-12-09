@@ -1,39 +1,59 @@
 .message {
     display: flex;
-    justify-content: end;
-    width: 500px;
+    justify-content: flex-end; /* Смещение всего сообщения вправо */
+    align-items: center;
+    width: auto; /* Ширина сообщения адаптируется к тексту */
+    margin: 10px 0; /* Отступы между сообщениями */
 }
 
 .imageAndText {
-
+    display: flex;
+    align-items: flex-start;
+    gap: 10px; /* Расстояние между текстом и аватаром */
+    flex-direction: row-reverse; /* Ставим аватарку справа */
 }
 
-.imageAndText img {
+.avatarAndTime {
+    position: relative;
+    top: 23px;
+    display: flex;
+    flex-direction: column; /* Расположение аватарки и времени по вертикали */
+    align-items: center; /* Центрирование аватарки и времени */
+    gap: 5px; /* Отступ между аватаркой и временем */
+}
+
+.avatarAndTime img {
     width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Круглая форма для аватара */
 }
 
 .text {
     display: flex;
     flex-direction: column;
-
-}
-
-.text:after {
-    border: 1px solid red;
-
+    align-items: flex-start;
+    background: #0059b3; /* Синий фон для сообщения */
+    color: white;
+    border-radius: 10px 10px 0 10px; /* Скругленные углы */
+    padding: 10px 15px; /* Отступы внутри блока текста */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень для сообщения */
 }
 
 .name {
     font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    align-self: end;
 }
 
 .messageText {
-background: #0059b3;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .time {
-
     font-size: 12px;
     color: gray;
-    align-self: flex-end;
+    text-align: center; /* Центрирование времени */
 }
+
