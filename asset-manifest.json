@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AliakseiKrasko/sprint2/static/css/main.c4ce0678.css",
-    "main.js": "/AliakseiKrasko/sprint2/static/js/main.58e4a4ef.js",
-    "static/js/787.66cb4309.chunk.js": "/AliakseiKrasko/sprint2/static/js/787.66cb4309.chunk.js",
-    "static/media/avatar.png": "/AliakseiKrasko/sprint2/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/AliakseiKrasko/sprint2/index.html",
-    "main.c4ce0678.css.map": "/AliakseiKrasko/sprint2/static/css/main.c4ce0678.css.map",
-    "main.58e4a4ef.js.map": "/AliakseiKrasko/sprint2/static/js/main.58e4a4ef.js.map",
-    "787.66cb4309.chunk.js.map": "/AliakseiKrasko/sprint2/static/js/787.66cb4309.chunk.js.map"
+    "main.css": "/sprint2/static/css/main.c4ce0678.css",
+    "main.js": "/sprint2/static/js/main.8a65507f.js",
+    "static/js/787.66cb4309.chunk.js": "/sprint2/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/sprint2/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/sprint2/index.html",
+    "main.c4ce0678.css.map": "/sprint2/static/css/main.c4ce0678.css.map",
+    "main.8a65507f.js.map": "/sprint2/static/js/main.8a65507f.js.map",
+    "787.66cb4309.chunk.js.map": "/sprint2/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4ce0678.css",
-    "static/js/main.58e4a4ef.js"
+    "static/js/main.8a65507f.js"
   ]
 }
