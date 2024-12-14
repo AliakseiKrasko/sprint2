@@ -35,7 +35,7 @@ const defaultAffairs: AffairType[] = [
     {_id: 5, name: 'html & css', priority: 'middle'},
 ]
 
-// pure helper functions
+
 export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => {
     if (filter === 'all') {
         return affairs
