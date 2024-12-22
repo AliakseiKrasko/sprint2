@@ -1,6 +1,6 @@
 import React, {ButtonHTMLAttributes, DetailedHTMLProps} from 'react'
 import s from './SuperButton.module.css'
-import {Button} from '@mui/material';
+
 
 // тип пропсов обычной кнопки, children в котором храниться название кнопки там уже описан
 type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>,
@@ -24,7 +24,9 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
                 ? ' ' + s.disabled
                 : xType === 'red'
                     ? ' ' + s.red
-                    : ''
+                    : xType === 'secondary'
+                        ? ' ' + s.secondary
+                        : ' ' + s.default
         ) +
         (className ? ' ' + className : '')
 
