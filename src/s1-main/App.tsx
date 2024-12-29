@@ -10,7 +10,7 @@ import {BrowserRouter} from 'react-router-dom';
 function App() {
     return (
         <div className={s.App}>
-            <BrowserRouter>
+
                 {/*<HW1/>*/}
                 {/*раскомментировать по ходу выполнения*/}
                 {/*<HW2/>
@@ -18,7 +18,7 @@ function App() {
             <HW4/>*/}
                 {/*при выполнении дз 5 и более - закомментировать здесь дз 1-4, так как они есть внутри дз 5*/}
                 <HW5/>
-            </BrowserRouter>
+
 
         </div>
     )
