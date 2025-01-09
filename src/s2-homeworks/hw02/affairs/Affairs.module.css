@@ -2,10 +2,16 @@
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
+
+}
+
+.store {
+    padding-left: 20px;
 }
 
 .all {
     --color: #06c;
+
 }
 
 .low {
