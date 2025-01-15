@@ -1,9 +1,27 @@
+/* Основной стиль селекта */
 .select {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #000; /* Черная рамка */
+    border-radius: 4px; /* Сглаженные углы */
+    margin-left: 5px;
+    padding: 5px 10px; /* Внутренние отступы */
+    font-size: 16px; /* Крупный шрифт */
+    color: #000; /* Черный цвет текста */
+    background-color: #fff; /* Белый фон */
+    cursor: pointer; /* Указатель при наведении */
+    /*appearance: none; !* Убираем стандартное оформление браузера *!*/
+    outline: none; /* Убираем обводку */
+    transition: border-color 0.3s ease;
 }
 
+/* Фокус на селекте */
 .select:focus {
+    border-color: #000; /* Подчеркиваем черный цвет рамки при фокусе */
 }
 
-
+/* Наведение на элемент в выпадающем списке */
 .option:hover {
+    background-color: #f5f5f5; /* Светло-серый фон при наведении */
+    color: #000; /* Черный цвет текста при наведении */
 }
