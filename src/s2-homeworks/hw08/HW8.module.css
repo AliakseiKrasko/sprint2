@@ -1,23 +1,61 @@
-.item {
-}
-
-.item:last-of-type {
-}
-
-.users {
-}
-
-.buttonsContainer {
-}
-
+/* Общий контейнер */
 .container {
+    margin: 20px 30px;
+    padding: 20px;
+    max-width: 600px;
+
+}
+
+/* Контейнер кнопок */
+.buttonsContainer {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.buttonsContainer button {
+    padding: 10px 20px;
+    margin-right: 10px;
+
+}
+
+
+/* Таблица пользователей */
+.users {
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .thead {
+    background-color: #f0f0f0;
+    font-weight: bold;
 }
 
+.thead td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* Элементы таблицы */
+.item td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.item:last-of-type td {
+    border-bottom: none;
+}
+
+/* Колонки */
 .nameCol {
+    width: 70%;
 }
 
 .ageCol {
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
 }
