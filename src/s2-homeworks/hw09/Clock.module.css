@@ -1,15 +1,26 @@
 .buttonsContainer {
-
+    margin-left: 10px; /* Убедитесь, что это необходимо */
+    display: flex; /* Если кнопки должны быть расположены горизонтально */
+    gap: 10px; /* Устанавливает расстояние между кнопками */
+    padding-top: 20px;
 }
 
 .clock {
+
+    margin-left: 20px;
 }
 
 .watch {
+    font-size: 20px;
 }
 
 .watch strong {
+    font-weight: bold;
 }
 
 .more {
+    color: black;
+    opacity: 0.5;
+    font-size: 16px;
+
 }
