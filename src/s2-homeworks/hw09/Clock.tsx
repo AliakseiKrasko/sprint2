@@ -10,12 +10,22 @@ function Clock() {
     const [show, setShow] = useState<boolean>(false)
 
     const start = () => {
+        if (!timerId) {
+            const id = window.setInterval(() => {
+                setDate(new Date())
+            }, 1000)
+            setTimerId(id)
+        }
         // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
         // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
 
     }
 
     const stop = () => {
+        if (timerId) {
+            clearInterval(timerId)
+        }
+        setTimerId(undefined)
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
 
     }
@@ -66,7 +76,7 @@ function Clock() {
             <div className={s.buttonsContainer}>
                 <SuperButton
                     id={'hw9-button-start'}
-                    disabled={true} // пишут студенты // задизэйблить если таймер запущен
+                    disabled={false} // пишут студенты // задизэйблить если таймер запущен
                     onClick={start}
                 >
                     start
