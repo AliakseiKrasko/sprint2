@@ -1,3 +1,7 @@
+type ThemeStateType = {
+    themeId: number
+}
+
 const initState = {
     themeId: 1,
 }
