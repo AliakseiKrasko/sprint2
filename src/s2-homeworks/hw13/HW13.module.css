@@ -1,30 +1,54 @@
 .buttonsContainer {
     margin-left: 10px;
+    display: flex;
+    gap: 10px; /* Расстояние между кнопками */
+    justify-content: flex-start; /* Выравнивание кнопок слева */
 }
 
 .responseContainer {
     display: flex;
-    gap: 10px;
+    justify-content: center; /* Центрирование контента */
+    align-items: center; /* Выравнивание по вертикали */
+    width: 80%;
+    gap: 40px; /* Расстояние между изображением и текстом */
+    margin: 40px auto; /* Центрирование по горизонтали */
 }
 
 .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px; /* Ширина контейнера изображения */
+    height: auto; /* Автоматическая высота */
 }
 
 .image {
+    max-width: 100%;
+    height: auto;
 }
 
 .textContainer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Выравнивание текста слева */
-    gap: 10px; /* Отступ между блоками текста */
+    justify-content: center;
+    text-align: left; /* Выравнивание текста слева */
+    gap: 10px; /* Расстояние между элементами текста */
 }
 
 .code {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .text {
+    font-size: 16px;
+    line-height: 1.5; /* Межстрочный интервал */
+    white-space: pre-line; /* Перенос строк */
 }
 
 .info {
+    font-size: 14px;
+    color: gray; /* Цвет текста для информации */
+    font-style: italic;
 }
