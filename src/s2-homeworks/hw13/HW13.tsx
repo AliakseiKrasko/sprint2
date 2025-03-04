@@ -37,29 +37,27 @@ const HW13 = () => {
                 setCode('Код 200!')
                 setImage(success200)
                 setInfo('')
-                setText('...всё ок)\n' +
-                    'код 200 - обычно означает что скорее всего всё ок)')
+                setText('...всё ок) код 200 - обычно означает что скорее всего всё ок)')
                 // дописать
 
             })
             .catch((e) => {
-                setInfo('')
-                if (x === false) {
-                    setCode('Ошибка 500!')
-                    setImage(error500)
-                    setText('Эмуляция ошибки на сервере\n' +
-                        'Ошибка 500 - это когда что-то сломалось на сервере, например, база данных!')
-                } else if (x === undefined) {
-                    setCode('Ошибка 400!')
-                    setImage(error400)
-                    setText('Ты не отправил success в body вообще!\n' +
-                        'Ошибка 400 - это значит, что фронт\n'+
-                        'отправил что-то не то на бэк!')
-                } else if (x === null) {
-                    setCode('Error!')
-                    setImage(errorUnknown)
-                    setText('Network Error\n' +
-                        'AxiosError')
+                setInfo('');
+                if (e.response) {
+                    if (e.response.status === 500) { // Проверяем статус ответа
+                        setCode('Ошибка 500!');
+                        setImage(error500);
+                        setText(`${e.response.data.errorText}\n${e.response.data.info}`);
+
+                    } else if (e.response.status === 400) {
+                        setCode('Ошибка 400!');
+                        setImage(error400);
+                        setText(e.response.data.errorText);
+                    }
+                } else {
+                    setCode('Error!');
+                    setImage(errorUnknown);
+                    setText('Network Error AxiosError');
                 }
             })
             .finally(() => {
