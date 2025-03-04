@@ -1,7 +1,10 @@
 .buttonsContainer {
+    margin-left: 10px;
 }
 
 .responseContainer {
+    display: flex;
+    gap: 10px;
 }
 
 .imageContainer {
@@ -10,7 +13,11 @@
 .image {
 }
 
-.textContainer{
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание текста слева */
+    gap: 10px; /* Отступ между блоками текста */
 }
 
 .code {
@@ -18,5 +25,6 @@
 
 .text {
 }
+
 .info {
 }
