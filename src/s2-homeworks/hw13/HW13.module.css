@@ -50,6 +50,6 @@
 
 .info {
     font-size: 14px;
-    color: gray; /* Цвет текста для информации */
-    font-style: italic;
+   /* color: gray; !* Цвет текста для информации *!
+    font-style: italic;*/
 }
