@@ -28,6 +28,9 @@ const SuperSort: React.FC<SuperSortPropsType> = (
     const onChangeCallback = () => {
         onChange(pureChange(sort, down, up))
     }
+    const downIcon = '▼' // можно заменить на иконку
+    const upIcon = '▲'
+    const noneIcon = '⇅'
 
     const icon = sort === down
         ? downIcon
@@ -35,19 +38,15 @@ const SuperSort: React.FC<SuperSortPropsType> = (
             ? upIcon
             : noneIcon
 
+
     return (
         <span
             id={id + '-sort-' + value}
             onClick={onChangeCallback}
+            style={{cursor: 'pointer', marginLeft: '5px'}}
         >
-            {/*сделать иконку*/}
-            {/*<img*/}
-            {/*    id={id + '-icon-' + sort}*/}
-            {/*    src={icon}*/}
-            {/*/>*/}
-
-            {icon} {/*а это убрать*/}
-        </span>
+    {icon}
+</span>
     )
 }
 
