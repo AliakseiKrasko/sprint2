@@ -39,11 +39,11 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
                         borderRadius: '8px',
                     },
                     '& .Mui-selected': {
-                        backgroundColor: '#1976d2',
-                        color: '#FFFFFF',
+                        backgroundColor: '#0d5daf',
+                        color: '#ffffff',
                         fontWeight: 'bold',
                         '&:hover': {
-                            backgroundColor: '#1565c0',
+                            backgroundColor: '#cd1d1d',
                         },
                     },
                     '& .MuiPagination-ul': {
@@ -58,7 +58,7 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
             />
 
             <span className={s.text1}>
-                показать
+                показатьь
             </span>
 
             <SuperSelect

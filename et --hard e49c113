@@ -1,0 +1,51 @@
+[33m61bedb0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m added styled3
+[33mf1ab531[m added styled2
+[33m71da554[m added styled
+[33me49c113[m added function
+[33mafbe52e[m added styled
+[33me7ccc20[m write function onChangeText
+[33m1ad0627[m write function sendQuery
+[33m621224e[m write function onChangeTextCallback
+[33m3c7d446[m fixed buges
+[33m8c7e7fa[m fixed 500
+[33mb2919d8[m fixed all project
+[33mf4f66fa[m added stiled
+[33m25238f9[m added all cath function send
+[33me178680[m added disabled buttons at click
+[33m5de4eeb[m finalized function send for two button
+[33m648e0a4[m finalized function send for first button
+[33mc3a3751[m rewrite themeReducer and SuperSelect
+[33m623d3af[m started HW12 and added styled
+[33md9ea164[m added HW11 and create function change
+[33ma957073[m added loader and create loadingreducer
+[33m8b62fd9[m write superbutton disabled and function onmouseenter and onmouseleave
+[33m9b55b1d[m write superbutton disabled and function onmouseenter and onmouseleave
+[33mcfe80b5[m added function start and stop in clock.tsx
+[33m7279902[m added styles hw8.modules.css
+[33me11a01b[m expend the homeworkreducer
+[33mc3c0acd[m added styled superradio and superselect
+[33m3d34b6e[m write function onchangecallback in superselect and superradio
+[33m5745396[m added style for hw2
+[33mc385ba3[m added style for hw6
+[33mf4ecdd7[m added function
+[33m4138275[m added all style for hw5
+[33m1b97d09[m added style sactive for storage
+[33m60e9d4d[m connected browserrouter and routes
+[33mf24a03c[m added style for button
+[33m25809f4[m added style for error input
+[33m892e404[m completed finalclassname in superbutton
+[33m8a126d2[m added hw4 in app
+[33m73ca140[m added style css
+[33mcfddfec[m refactoring all project HW3
+[33mab7fa1d[m refactoring GreetingContainer
+[33mc61af9a[m refactoring HW3
+[33m52950e1[m added button delete
+[33m5f09fa3[m wriete const setAll setHigh setMiddle setLow
+[33mee145a3[m wriete function deleteAffairCallback
+[33mfd3437f[m wriete function filterAffairs
+[33mba64ce7[m added type AffairPriorityType
+[33m436695c[m added styled css for messagesender
+[33mfe388a2[m added styled css for friendmessage
+[33m2b079ad[m added styled css
+[33m0511367[m refactoring
+[33mc3ef3ae[m first commit
