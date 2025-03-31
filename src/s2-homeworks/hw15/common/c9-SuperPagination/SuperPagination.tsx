@@ -40,7 +40,7 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
                     },
                     '& .Mui-selected': {
                         backgroundColor: '#1976d2',
-                        color: '#fff',
+                        color: '#FFFFFF',
                         fontWeight: 'bold',
                         '&:hover': {
                             backgroundColor: '#1565c0',
