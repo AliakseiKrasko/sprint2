@@ -1,9 +1,10 @@
 .pagination {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 5px;
     padding: 16px 0;
     margin-left: 20px;
+    max-width: 100%;
 }
 
 .text1 {

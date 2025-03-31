@@ -1,26 +1,29 @@
 .tech {
-    width: 50%;
+    width: 20%;
     padding: 8px;
     border-bottom: 1px solid #ddd;
     margin-left: 20px;
 }
 
 .developer {
-    width: 50%;
+    width: 20%;
     padding: 8px;
     border-bottom: 1px solid #ddd;
 }
 
 .techHeader, .developerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
     font-weight: bold;
     background-color: #eaeaea;
     padding: 8px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 20%;
     border-bottom: 2px solid #ccc;
-    margin-left: 20px;
+}
+.techHeader {
+   margin-left: 20px;
 }
 
 .row {
